@@ -9,3 +9,5 @@ Starting wit the applied visual design module on freecodecame responsive web des
     - Used transform:scale(2) to double the size of the element
 - Created Graphics : crescent moon, heart
 - Practised animation with keyframes
+    - created a beating heart
+    - created a bouncing ball with bezier curve
