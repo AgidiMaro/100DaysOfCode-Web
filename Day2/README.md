@@ -1,6 +1,6 @@
 #Day 2
 
-Completed applied visual design module on freecodecame responsive web design certification (2hrs)
+Completed applied visual design module on freecodecame responsive web design certification (3hrs)
 - Learnt/refreshed knowledge on different code for manipulating text (margin=auto, opacity, rgba,text-transform
 - Studied color theory: split-complimentary color scheme
     - Complementary colors make each other appear more vibrant, but should be used sparingly.
