@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <title>Survey</title>
+    <link rel="stylesheet" type="text/css" href="./survey.css" />
+</head>
+
+<body>
+    <header>
+        <h1 id="title">freeCodeCamp Survey Form</h1>
+        <p id="description"><i>Thank you for taking the time to help us improve the platform</i></p>
+    </header>
+
+
+
+    <form id="survey-form" action="submit">
+        <label id="name-label" for:"name"> Name
+            <input type="text" id="name" placeholder="Enter your name" required class="long-input">
+        </label>
+
+        <label id="email-label" for:"email"> Email
+            <input type="email" id="email" placeholder="Enter your Email" required class="long-input">
+        </label>
+
+        <label id="number-label" for:"number"> Age
+            <input type="number" id="number" placeholder="Enter your Age" min="18" max="80" class="long-input">
+        </label>
+
+        <label for:"dropdown"> Which option best describes your current role
+            <select id="dropdown" class="long-input">
+                <option disabled selected class="long-input">Select your current role</option>
+                <option>Student</option>
+                <option>Full Time Job</option>
+                <option>Full Time Learner</option>
+                <option>Prefer not to say</option>
+            </select>
+        </label>
+
+        <label name="role">Would you recommend freeCodeCamp to a friend?<br>
+            <input type="radio" name="role" id="definitely" value="Definitely">
+            <label for:"definely" class="options">Definitely </label><br>
+            <input type="radio" name="role" id="maybe" value="may be">
+            <label for:"maybe" class="options">Maybe</label><br>
+            <input type="radio" name="role" id="not-sure" value="not sure">
+            <label for:"not-sure" class="options">Not sure </label>
+        </label>
+
+
+        <label for:"feature-dropdown"> What is your favorite feature of freeCodeCamp
+            <select id="feature-dropdown" class="long-input">
+                <option disabled selected>Select an option</option>
+                <option>Challenges</option>
+                <option>Projects</option>
+                <option>Community</option>
+                <option>Open Source</option>
+            </select>
+        </label>
+
+        <label name="improvement">What would you like to see improved?<br>
+
+            <input type="checkbox" name="improvement" id="Front-end-projects" value="Front-end Projects">
+            <label for:"Front-end-projects" class="options"> Front-end Projects </label><br>
+            <input type="checkbox" name="improvement" id="Back-end projects" value="Back-end projects">
+            <label for:"Back-end-projects" class="options">Back-end Projects</label><br>
+            <input type="checkbox" name="improvement" id="Data Visualization" value="Data Visualization">
+            <label for:"Data-Visualization" class="options"> Data Visualization </label>
+        </label>
+
+        <label for:"comments"> Any comments or suggestions?<br>
+            <textarea id="comments" placeholder="Enter your comments here..." class="long-input"></textarea>
+        </label>
+
+        <input type="submit" id="submit">
+
+    </form>
+
+</body>
+
+
+</html>
