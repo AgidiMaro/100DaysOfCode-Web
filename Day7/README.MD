@@ -3,3 +3,7 @@ Completed a personal portfolio webpage.
 - learnt the difference between rem and em. em is for font-size relative to the parent while rem is for font size relative to the root font-size
 
 Completed the responsive web design certification: https://www.freecodecamp.org/certification/iMaro/responsive-web-design
+
+Read up auto-fit and CSS grid again
+
+Time spent- 5 hrs
