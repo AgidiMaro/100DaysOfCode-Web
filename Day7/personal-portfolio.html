@@ -3,14 +3,15 @@
 <head>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" href="https://fonts.google.com/">
 </head>
 
 <header>
     <nav id="navbar">
         <ul id="navlink">
-            <li class="nav-item"><a href="#welcome-section">About</a></li>
-            <li class="nav-item"><a href="#work">Work</a></li>
-            <li class="nav-item"><a href="#contact">Contact</a></li>
+            <li><a href="#welcome-section" class="nav-item nav-item-ltr">About</a></li>
+            <li><a href="#work" class="nav-item nav-item-ltr">Work</a></li>
+            <li><a href="#contact" class="nav-item nav-item-ltr">Contact</a></li>
         </ul>
 
     </nav>
@@ -26,116 +27,100 @@
 
     <h2>These are some of my projects</h2>
 
-    <section id="projects">
-        <div class="project-tile">
-            <div class="project-image">
-                <img src="https://cdn.freecodecamp.org/testable-projects-fcc/images/tribute.jpg">
-            </div>
-            <div class="project-title"><a href="#">
-                    <p> <span class="hover-text">
-                            < </span>Tribute Page<span> /></span></p>
-                </a>
-            </div>
 
-        </div>
-        <!-- <div class="project-tile">
-            <div class="project-image">
-                <a href="#"><img
-                        src="https://cdn.freecodecamp.org/testable-projects-fcc/images/random-quote-machine.png"></a>
-            </div>
-            <div class="project-title"><a href="#">
-                    <p class="hover-text">a</p>
-                    <p class="project-name">Random Quote Machine</p>
-                    <p class="hover-text">a</p>
-                </a>
-            </div>
+    <section id="projects-grid">
 
-        </div>
-        <div class="project-tile">
-            <div class="project-image">
-                <a href="#"><img src="https://cdn.freecodecamp.org/testable-projects-fcc/images/calc.png"></a>
-            </div>
-            <div class="project-title"><a href="#">
-                    <p class="hover-text">a</p>
-                    <p class="project-name">Javascript Calculator</p>
-                    <p class="hover-text">a</p>
-                </a>
-            </div>
+        <a class="project-tile" href="#">
+            <img class="project-image" src="https://cdn.freecodecamp.org/testable-projects-fcc/images/tribute.jpg">
+            <p class="project-title">
+                <span class="hover-text">
+                    < </span>Tribute Page<span> /></span>
+            </p>
+        </a>
 
-        </div>
-        <div class="project-tile">
-            <div class="project-image">
-                <a href="#"><img src="https://cdn.freecodecamp.org/testable-projects-fcc/images/map.jpg"></a>
-            </div>
-            <div class="project-title"><a href="#">
-                    <p class="hover-text">a</p>
-                    <p class="project-name">Map Data Across the Globe</p>
-                    <p class="hover-text">a</p>
-                </a>
-            </div>
 
-        </div>
-        <div class="project-tile">
-            <div class="project-image">
-                <a href="#"><img src="https://cdn.freecodecamp.org/testable-projects-fcc/images/wiki.png"></a>
-            </div>
-            <div class="project-title"><a href="https://codepen.io/freeCodeCamp/full/wGqEga">
-                    <p class="hover-text">a</p>
-                    <p class="project-name">Wikipedia Viewer</p>
-                    <p class="hover-text">a</p>
-                </a>
-            </div>
+        <a class="project-tile" href="#">
+            <img class="project-image"
+                src="https://cdn.freecodecamp.org/testable-projects-fcc/images/random-quote-machine.png">
+            <p class="project-title"><span class="hover-text">
+                    < </span>Random Quote Machine<span> /></span></p>
+        </a>
 
-        </div>
-        <div class="project-tile">
-            <div class="project-image">
-                <a href="#"><img src="https://cdn.freecodecamp.org/testable-projects-fcc/images/tic-tac-toe.png"></a>
-            </div>
-            <div class="project-title"><a href="https://codepen.io/freeCodeCamp/full/KzXQgy">
-                    <p class="hover-text">a</p>
-                    <p class="project-name">Tic Tac Toe Game</p>
-                    <p class="hover-text">a</p>
-                </a>
-            </div>
 
-        </div> -->
+        <a class="project-tile" href="#">
+            <img class="project-image" src="https://cdn.freecodecamp.org/testable-projects-fcc/images/calc.png">
+            <p class="project-title"><span class="hover-text">
+                    < </span>Javascript Calculator<span> /></span></p>
+        </a>
+
+
+        <a class="project-tile" href="#">
+            <img class="project-image" src="https://cdn.freecodecamp.org/testable-projects-fcc/images/map.jpg">
+            <p class="project-title"><span class="hover-text">
+                    < </span>Map Data Across the Globe<span> /></span></p>
+        </a>
+
+
+        <a class="project-tile" href="#">
+            <img class="project-image" src="https://cdn.freecodecamp.org/testable-projects-fcc/images/wiki.png">
+            <p class="project-title"><span class="hover-text">
+                    < </span>Wikipedia Viewer<span> /></span></p>
+        </a>
+
+
+        <a class="project-tile" href="#">
+            <img class="project-image" src="https://cdn.freecodecamp.org/testable-projects-fcc/images/tic-tac-toe.png">
+            <p class="project-title"><span class="hover-text">
+                    < </span>Tic Tac Toe Game<span> />
+                        </span></p>
+        </a>
+
+
+
+
+
+
+
 
     </section>
-    <!-- <button> Show all ></button>
-
+    <button class="btn"> Show all ></button>
 </section>
+
+
+
+
 <section id="contact">
     <div id="contact-text">
         <h1>Let's work together</h1>
-        <p>How do you take your coffee</p>
+        <p>How do you take your coffee ?</p>
     </div>
     <div id="social-media">
-        <div class="social">
-            <i class="fab fa fa-facebook"></i>
-            <p>Facebook</p>
-        </div>
-        <div class="social"><a href="https://github.com/AgidiMaro" id="profile-link" target="_blank">
-                <i class="fab fa fa-github"></i>
-                <p>Github</p><a>
-        </div>
-        <div class="social">
+        <a class="social-detail" href="https://github.com/AgidiMaro" id="profile-link" target="_blank">
+            <i class="fab fa fa-github"></i>
+            Facebook
+        </a>
+        <a class="social-detail" href="https://github.com/AgidiMaro" id="profile-link" target="_blank">
+            <i class="fab fa fa-github"></i>
+            Github
+        </a>
+        <a class="social-detail" href="#">
             <i class="fab fa fa-twitter"></i>
-            <p>Twitter</p>
-        </div>
-        <div class="social">
+            Twitter
+        </a>
+        <a class="social-detail" href="#">
             <i class="fab fa fa-at"></i>
-            <p>Send a mail</p>
-        </div>
-        <div class="social">
+            Send a mail
+        </a>
+        <a class="social-detail" href="#">
             <i class="fab fa fa-mobile"></i>
-            <p>Call me</p>
-        </div>
+            Call me
 
+        </a>
     </div>
 </section>
 <footer>
-    <p>**This is just a fake portfolio. All the projects and contact details given are not real.</p>
-</footer> -->
+    <p>(c) created as part of freecodecamp project 2022</p>
+</footer>
 
 
 
