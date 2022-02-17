@@ -24,3 +24,4 @@ const doubler = item => item * 2;
 - the spread operator (...) is used to expand arrays. For example
     const arr1 = [1,3,5,6,7];
     let arr2 = [..arr1]; // copies the content of arr1 into arr2.
+- tried some basic algorithms
