@@ -10,3 +10,9 @@ Started the OOP module
 - A mixin allows other objects to use a collection of functions.
 - checked out declaring and accessing private variables in constructors for objects
 - checked out immediately invoked functions (function name(){})(). The last set of brackets makes it immediately executable.
+
+Time - 2 hrs
+
+Study some Javascript Array method
+- filter
+- includes
