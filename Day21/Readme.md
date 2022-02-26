@@ -16,3 +16,5 @@ Started the Front-end development libraries course
     - @for $i from 1 to 6{.text-#{$i}{font-size: 15*$i;}}
     -use @ each to loop over items. Can be used to create new css classes
     use @extend for inheritance in SASS
+
+ Time : 4 hrs   
