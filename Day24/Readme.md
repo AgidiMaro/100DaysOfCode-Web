@@ -6,3 +6,5 @@ Pausing the frontend course on freecode camp to get better understanding of reac
 - import React from 'react; and import ReactDom from ' react-dom'
 - stateless functional component are also called DOM compoonent
 - completed a booklist app where I leveraged vanilla CSS and react
+
+Time : 4hrs
