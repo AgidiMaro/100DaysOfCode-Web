@@ -28,6 +28,10 @@ body {
   background: #fff;
   border-radius: 1rem;
   padding: 1rem 2rem;
+  display: flex;
+  justify-content: flex-end;
+  align-items: flex-start;
+  flex-direction: column;
 }
 
 .book h1 {
@@ -37,4 +41,16 @@ body {
   color: #617d98;
   font-size: 0.75rem;
   margin-top: 0.25rem;
+}
+.book p {
+  margin-top: 0.5rem;
+}
+button {
+  padding: 0.2rem 0.7rem;
+  bottom: 0;
+  margin-left: auto;
+  margin-right: auto;
+  display: flex;
+  border: #617d98 1px solid;
+  border-radius: 00.25rem;
 }
