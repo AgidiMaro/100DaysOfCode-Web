@@ -5,3 +5,4 @@ Continued the full react course.
 - reducer(state,action)=>{
   return newState
   }
+- useContext to transfer property values from parent to children and gradchildren
