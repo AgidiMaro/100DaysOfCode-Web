@@ -36,17 +36,6 @@ function App() {
   return (
     <>
       <div className="body-wrap boxed-container">
-        {/* <div class="site-header">
-          <div className="container">
-            <nav className="navbar">
-              <div>
-                <a href="">
-                  <img src="dist/images/logo-light.svg" id="nav-logo" />
-                </a>
-              </div>
-            </nav>
-          </div>
-        </div> */}
         <header class="site-header">
           <div class="container">
             <div class="site-header-inner">
